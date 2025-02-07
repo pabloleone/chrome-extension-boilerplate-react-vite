@@ -59,6 +59,7 @@ const manifest = withSidePanel({
   content_scripts: [
     {
       matches: ['http://*/*', 'https://*/*', '<all_urls>'],
+      all_frames: true,
       js: ['content/index.iife.js'],
     },
     {
