@@ -46,7 +46,7 @@ function handleKeyDown(event: Event) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer `, // si hace falta
+        Authorization: `Bearer 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`, // si hace falta
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo-0125',
